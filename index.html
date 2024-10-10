@@ -1,0 +1,31 @@
+<!--https://us06web.zoom.us/j/3849993598?pwd=dOTva8a4LCzBbVQedBKzAkiWzKSjM3.1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <h1 class="title">Random Password Generator by KG</h1>
+<!--        <label>-->
+        <div class="password-container">
+            <input type="text" class="password" id="password" placeholder="New password">
+            <img src = "images/copy.png" alt="Copy" class="copy-icon" onclick="copy2Clipboard()">
+        </div>
+<!--        </label>-->
+
+
+        <button class="button generate-btn" id="generate-btn" onclick="generatePassword()">Generate password</button>
+        <button class="button copy-btn" id="copy-btn" onclick="copy2Clipboard()">Copy to clipboard</button>
+    </div>
+</div>
+
+
+<script src="passwordGenerator.js"></script>
+
+
+</body>
+</html>
